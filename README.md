@@ -18,16 +18,27 @@ The library supports multiple **pricing techniques**:
 ## 📁 Directory Structure  
 
 interest_rate_models/
+
 ├── cpp_data_api/ # Placeholder for the future C++ data-fetching component
+
 ├── python_lib/
+
 │ ├── interest_rate_models/
+
 │ │ ├── calibrators/ # Calibration methods for each model
+
 │ │ ├── models/ # Model implementations
+
 │ │ ├── pricing/ # Pricing methods (Monte Carlo, FDM, Trees)
+
 │ │ ├── tests/ # Test files for each model
+
 │ │ └── main.py # Example usage of the library
+
 ├── toolchain.sh # Script to set up environment and dependencies
+
 ├── pyproject.toml # Poetry configuration file
+
 ├── README.md # You're reading this!
 
 
@@ -88,7 +99,4 @@ Logs are displayed to the console in the format:
 ```
 2025-03-19 10:32:45 - INFO - Testing Ho-Lee Model with Monte Carlo pricing...  
 2025-03-19 10:32:50 - INFO - Ho-Lee Model Monte Carlo Price: 42.0  
-
 ```
-
-
